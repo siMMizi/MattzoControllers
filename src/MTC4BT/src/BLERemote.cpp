@@ -36,7 +36,8 @@ void BLERemote::initHubs()
 			break;
 		case PU:	  // not a remote
 		case SBrick:  // not a remote
-		case BuWizz2: // not a remote
+		case BuWizz2:	  // not a remote
+		case CircuitCube: // not a remote
 			break;
 		}
 		// Next is needed for connection scanning!

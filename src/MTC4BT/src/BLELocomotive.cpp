@@ -4,6 +4,7 @@
 
 #include "BLELocomotive.h"
 #include "BuWizz2Hub.h"
+#include "CircuitCubeHub.h"
 #include "MCLightController.h"
 #include "MController.h"
 #include "PUHub.h"
@@ -116,6 +117,9 @@ void BLELocomotive::initHubs()
 			break;
 		case BLEHubType::BuWizz2:
 			hub = new BuWizz2Hub(hubConfig);
+			break;
+		case BLEHubType::CircuitCube:
+			hub = new CircuitCubeHub(hubConfig);
 			break;
 		case BLEHubType::PUController: // not a locomotive
 			break;

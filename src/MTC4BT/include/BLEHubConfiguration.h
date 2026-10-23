@@ -23,7 +23,10 @@ enum BLEHubType {
 	BuWizz2,
 
 	// Powered Up remote
-	PUController
+	PUController,
+
+	// Circuit Cubes Bluetooth Battery Cube (Tenka)
+	CircuitCube
 
 };
 
@@ -35,6 +38,7 @@ struct bleHubTypeMap : public std::map<std::string, BLEHubType> {
 		this->operator[]("SBrick") = BLEHubType::SBrick;
 		this->operator[]("BuWizz2") = BLEHubType::BuWizz2;
 		this->operator[]("PUController") = BLEHubType::PUController;
+		this->operator[]("CircuitCube") = BLEHubType::CircuitCube;
 	};
 	~bleHubTypeMap() {}
 };

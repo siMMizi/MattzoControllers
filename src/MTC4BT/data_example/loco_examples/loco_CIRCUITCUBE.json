@@ -1,0 +1,23 @@
+{
+	"address": 1,
+	"name": "CIRCUITCUBE-LOCO",
+	"pwrIncStep": 10,
+	"pwrDecStep": 10,
+	"bleHubs": [
+		{
+			"type": "CircuitCube",
+			"address": "fc:58:fa:00:00:01",
+			"channels": [
+				{
+					"channel": "A",
+					"attachedDevice": "motor"
+				},
+				{
+					"channel": "B",
+					"attachedDevice": "motor",
+					"direction": "backward"
+				}
+			]
+		}
+	]
+}

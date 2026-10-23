@@ -6,6 +6,7 @@ It currently supports the following type of BLE devices:
 - [LEGO Powered Up](https://amzn.to/3VUsPAS)
 - [SBrick](https://sbrick.com/?ref=7992)
 - [BuWizz2](https://buwizz.com/?ref=240)
+- [Circuit Cubes Bluetooth Battery Cube](https://circuitcubes.com/products/bluetooth-battery-cube)
 - [LEGO Remote Control](https://amzn.to/406qFjY)
 
 Please note the firmware only runs on [ESP32](https://www.espressif.com/en/products/socs/esp32) MCU's.
@@ -51,6 +52,7 @@ Supported hub types
  - `PU` Lego powered up
  - `SBrick` SBrick
  - `BuWizz2` BuWizz (version 2.0 only)
+ - `CircuitCube` Circuit Cubes Bluetooth Battery Cube (channels `A`, `B` and `C` only, see [loco_CIRCUITCUBE.json](data_example/loco_examples/loco_CIRCUITCUBE.json))
 
 The BuWizz 2.0 hub has an additional configuration item `powerlevel` which can hold de following values (case sensitive!):
   - `disabled` Power is disabled
