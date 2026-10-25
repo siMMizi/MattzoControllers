@@ -6,3 +6,6 @@
 /.vs/MattoControllers/FileContentIndex
 /.vs/MattoControllers/v17/.wsuo
 /.vs/VSWorkspaceState.json
+
+# macOS
+.DS_Store
